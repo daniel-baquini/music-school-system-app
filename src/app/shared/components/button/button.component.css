@@ -1,0 +1,19 @@
+:host {
+    display: contents;
+}
+
+button.primary {
+    align-items: center;
+    background-color: var(--c-primary-90);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    padding: 12px 32px;
+    width: 100%;
+}
+
+button.primary > span {
+    color: var(--c-white-10);
+}

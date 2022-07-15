@@ -1,19 +1,19 @@
 import { BorderedFieldComponent } from './components/bordered-field/bordered-field.component';
+import { ButtonComponent } from './components/button/button.component';
 import { CommonModule } from '@angular/common';
 import { LogoComponent } from './components/logo/logo.component';
 import { NgModule } from '@angular/core';
-import { PrimaryButtonComponent } from './components/primary-button/primary-button.component';
 
 @NgModule({
     declarations: [
         BorderedFieldComponent,
-        LogoComponent,
-        PrimaryButtonComponent
+        ButtonComponent,
+        LogoComponent
     ],
     exports: [
         BorderedFieldComponent,
-        LogoComponent,
-        PrimaryButtonComponent
+        ButtonComponent,
+        LogoComponent
     ],
     imports: [
         CommonModule

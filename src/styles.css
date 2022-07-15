@@ -39,25 +39,31 @@ body {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
 }
 
-.text-preset-290 {
+.text-preset-210 {
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
 }
 
-.text-preset-400 {
+.text-preset-260 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text-preset-310 {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
 }
 
-.text-preset-450 {
+.text-preset-320 {
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
 }
 
-.text-preset-650 {
+.text-preset-510 {
     font-size: 24px;
     font-weight: 500;
     line-height: 100%;
