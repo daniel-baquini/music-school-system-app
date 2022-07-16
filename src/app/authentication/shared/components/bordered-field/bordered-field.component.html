@@ -1,7 +1,7 @@
 <div class="field-group">
     <div class="field-group__label-wrapper">
         <div class="label-wrapper__left-border"></div>
-        <span class="label-wrapper__label text-preset-210">{{this.label}}</span>
+        <span class="label-wrapper__label text-preset-210" *ngIf="this.label != ''">{{this.label}}</span>
         <div class="label-wrapper__right-border"></div>
     </div>
     <div class="field-group__input-wrapper">

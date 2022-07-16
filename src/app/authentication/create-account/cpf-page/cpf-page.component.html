@@ -1,1 +1,13 @@
-<app-page-title></app-page-title>
+<app-page-title [pageTitle]="'Cadastro'" [returnLink]="'/authentication'"></app-page-title>
+<div class="content">
+    <div class="fields-and-instructions">
+        <div class="fields-and-instructions__instructions">
+            <span class="instructions__title text-preset-510">Qual é o seu CPF?</span>
+            <span class="instructions__description text-preset-310">Essa informação é necessária para validação de algumas ações no aplicativo, como, por exemplo, cupons de desconto</span>
+        </div>
+        <app-bordered-field></app-bordered-field>
+    </div>
+    <div class="buttons-row">
+        <app-button [label]="'Continuar'"></app-button>
+    </div>
+</div>
