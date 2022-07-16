@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-bordered-field',
-  templateUrl: './bordered-field.component.html',
-  styleUrls: ['./bordered-field.component.css']
+    selector: 'app-bordered-field',
+    templateUrl: './bordered-field.component.html',
+    styleUrls: ['./bordered-field.component.css']
 })
-export class BorderedFieldComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class BorderedFieldComponent {
+    
+    @Input() label: string = "";
+    
 }
