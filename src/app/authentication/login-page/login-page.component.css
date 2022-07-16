@@ -37,11 +37,3 @@ form {
     gap: 32px;
     width: 100%;
 }
-
-.create-account {
-    color: var(--c-dark-60);
-}
-
-.create-account__create-one {
-    color: var(--c-primary-90);
-}
