@@ -1,0 +1,47 @@
+:host {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 80px 32px 32px;
+    width: 100%;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+}
+
+.welcome-message {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.welcome-message__welcome {
+    color: var(--c-dark-80);
+}
+
+.welcome-message__instructions {
+    color: var(--c-dark-60);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+
+.create-account {
+    color: var(--c-dark-60);
+}
+
+.create-account__create-one {
+    color: var(--c-primary-90);
+}

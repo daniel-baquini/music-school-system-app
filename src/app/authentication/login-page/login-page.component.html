@@ -1,1 +1,14 @@
-<p>login-page works!</p>
+<app-logo [size]="'large'"></app-logo>
+<div class="content">
+    <div class="welcome-message">
+        <span class="text-preset-510 welcome-message__welcome">Boas vindas!</span>
+        <span class="text-preset-310 welcome-message__instructions">Para começar, insira o número celular cadastrado, sua senha e toque em “Entrar”</span>
+    </div>
+    <form [noValidate]>
+        <app-bordered-field [label]="'Celular'"></app-bordered-field>
+        <app-button [label]="'Entrar'"></app-button>
+    </form>
+    <span class="create-account text-preset-310">
+        Não tem conta? <span class="create-account__create-one text-preset-320">Crie uma</span>
+    </span>
+</div>
