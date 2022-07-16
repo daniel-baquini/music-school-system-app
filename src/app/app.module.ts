@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { SharedModule } from './authentication/shared/shared.module';
 
-
 @NgModule({
     declarations: [
         AppComponent
