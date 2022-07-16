@@ -2,6 +2,7 @@ import { BorderedFieldComponent } from './components/bordered-field/bordered-fie
 import { ButtonComponent } from './components/button/button.component';
 import { CommonModule } from '@angular/common';
 import { LogoComponent } from './components/logo/logo.component';
+import { ModuleButtonComponent } from './components/module-button/module-button.component';
 import { NgModule } from '@angular/core';
 import { PageTitleComponent } from './components/page-title/page-title.component';
 import { RouterModule } from '@angular/router';
@@ -11,6 +12,7 @@ import { RouterModule } from '@angular/router';
         BorderedFieldComponent,
         ButtonComponent,
         LogoComponent,
+        ModuleButtonComponent,
         PageTitleComponent
     ],
     exports: [
@@ -18,6 +20,7 @@ import { RouterModule } from '@angular/router';
         ButtonComponent,
         CommonModule,
         LogoComponent,
+        ModuleButtonComponent,
         PageTitleComponent
     ],
     imports: [

@@ -37,12 +37,12 @@
     content: "\e903";
 }
 
-.icon-clock:before {
-    content: "\e904";
+.icon-classes:before {
+    content: "\e905";
 }
 
-.icon-courses:before {
-    content: "\e905";
+.icon-clock:before {
+    content: "\e904";
 }
 
 .icon-edit:before {

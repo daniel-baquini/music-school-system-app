@@ -28,6 +28,7 @@ html {
 }
 
 body {
+    background-color: var(--c-white-10w);
     font-family: 'Roboto';
     font-style: normal;
     height: 100%;
@@ -56,6 +57,12 @@ app-root {
     line-height: 150%;
 }
 
+.text-preset-300 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
 .text-preset-310 {
     font-size: 16px;
     font-weight: 400;
@@ -68,8 +75,20 @@ app-root {
     line-height: 150%;
 }
 
+.text-preset-500 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
 .text-preset-510 {
     font-size: 24px;
     font-weight: 500;
+    line-height: 100%;
+}
+
+.text-preset-620 {
+    font-size: 28px;
+    font-weight: 600;
     line-height: 100%;
 }

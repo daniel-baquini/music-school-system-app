@@ -1,0 +1,29 @@
+:host {
+    align-items: center;
+    background-color: var(--c-white-20);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 24px;
+}
+
+.module-data {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.module-data__icon, .icon-chevron-right  {
+    color: var(--c-dark-80);
+    font-size: 24px;
+}
+
+.module-data__title {
+    color: var(--c-dark-80);
+}
+
+.module-data__description {
+    color: var(--c-dark-60);
+}

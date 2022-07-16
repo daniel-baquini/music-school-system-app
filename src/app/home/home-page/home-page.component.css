@@ -1,0 +1,59 @@
+:host {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+    overflow: auto;
+    padding: 32px;
+    width: 100%;
+}
+
+:host > * {
+    width: 100%;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.welcome-message__welcome {
+    color: var(--c-dark-80);
+}
+
+.welcome-message__username {
+    color: var(--c-dark-60);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.lets-start {
+    display: flex;
+    flex-direction: column;
+}
+
+.lets-start__title {
+    color: var(--c-dark-80);
+}
+
+.lets-start__subtitle {
+    color: var(--c-dark-60);
+}
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
