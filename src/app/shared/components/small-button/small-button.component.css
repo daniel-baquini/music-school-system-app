@@ -1,0 +1,35 @@
+:host {
+    display: block;
+    width: 100%;
+}
+
+button {
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    padding: 12px 32px;
+    width: 100%;
+}
+
+button[disabled] {
+    opacity: 0.4;
+}
+
+button.primary {
+    background-color: var(--c-primary-90);
+}
+
+button.primary > span {
+    color: var(--c-white-10);
+}
+
+button.primary-white {
+    background-color: var(--c-white-20);
+}
+
+button.primary-white > span {
+    color: var(--c-dark-80);
+}

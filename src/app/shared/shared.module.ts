@@ -6,6 +6,7 @@ import { LogoComponent } from './components/logo/logo.component';
 import { NgModule } from '@angular/core';
 import { PageTitleComponent } from './components/page-title/page-title.component';
 import { RouterModule } from '@angular/router';
+import { SmallButtonComponent } from './components/small-button/small-button.component';
 
 @NgModule({
     declarations: [
@@ -13,7 +14,8 @@ import { RouterModule } from '@angular/router';
         ButtonComponent,
         ChipComponent,
         LogoComponent,
-        PageTitleComponent
+        PageTitleComponent,
+        SmallButtonComponent
     ],
     exports: [
         BorderedFieldComponent,
@@ -21,7 +23,8 @@ import { RouterModule } from '@angular/router';
         ChipComponent,
         CommonModule,
         LogoComponent,
-        PageTitleComponent
+        PageTitleComponent,
+        SmallButtonComponent
     ],
     imports: [
         CommonModule,

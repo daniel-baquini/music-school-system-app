@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+    overflow: auto;
+    padding: 32px;
+    width: 100%;
+}
+
+:host > * {
+    width: 100%;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.categories__title {
+    color: var(--c-dark-80);
+}
+
+.categories-chips {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    overflow: auto;
+}
+
+.materials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
