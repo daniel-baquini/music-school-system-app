@@ -1,7 +1,8 @@
+import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './home-page/home-page.component';
+import { ModuleButtonComponent } from './module-button/module-button.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SharedModule } from '../shared/shared.module';
 
 const homeRoutes: Routes = [
     {
@@ -12,11 +13,12 @@ const homeRoutes: Routes = [
 
 @NgModule({
     declarations: [
-        HomePageComponent
+        HomePageComponent,
+        ModuleButtonComponent
     ],
     imports: [
-        RouterModule.forChild(homeRoutes),
-        SharedModule
+        CommonModule,
+        RouterModule.forChild(homeRoutes)
     ]
 })
 export class HomeModule { }
