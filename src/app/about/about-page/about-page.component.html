@@ -1,0 +1,16 @@
+<app-page-title
+    [pageTitle]="'Sobre a escola'"
+    [returnLink]="'/'"
+></app-page-title>
+<div class="categories">
+    <span class="categories__title text-preset-400">Categorias</span>
+    <div class="categories-chips">
+        <app-chip [isActive]="true" [label]="'Guitarra'"></app-chip>
+        <app-chip [isActive]="false" [label]="'Piano'"></app-chip>
+        <app-chip [isActive]="false" [label]="'Violão'"></app-chip>
+    </div>
+</div>
+<div class="paragraph">
+    <span class="paragraph__title text-preset-310">Sobre a escola</span>
+    <span class="paragraph__content text-preset-210">A escola nasceu em 1922, com o objetivo de curar a depressão dos soldados pós guerra...</span>
+</div>
