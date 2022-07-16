@@ -13,6 +13,7 @@ import { NgModule } from '@angular/core';
     exports: [
         BorderedFieldComponent,
         ButtonComponent,
+        CommonModule,
         LogoComponent
     ],
     imports: [
