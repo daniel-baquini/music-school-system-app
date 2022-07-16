@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cpf-page',
   templateUrl: './cpf-page.component.html',
   styleUrls: ['./cpf-page.component.css']
 })
-export class CpfPageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class CpfPageComponent { }

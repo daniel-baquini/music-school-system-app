@@ -1,0 +1,19 @@
+<app-page-title [pageTitle]="'Cadastro'" [returnLink]="'/authentication/create-account/step/1'"></app-page-title>
+<div class="content">
+    <div class="fields-and-instructions">
+        <div class="fields-and-instructions__instructions">
+            <span class="instructions__title text-preset-510">Insira o código de confirmação</span>
+            <span class="instructions__description text-preset-310">Foi enviado um código de 6 dígitos através de SMS para o número: (11) 91234-5678</span>
+        </div>
+        <div class="fields-and-instructions__fields">
+            <app-bordered-field></app-bordered-field>
+            <span class="didnt-received-the-code text-preset-310">
+                Não recebeu o código? <span class="didnt-received-the-code__touch-here text-preset-320">Toque aqui</span>
+            </span>
+        </div>
+    </div>
+    <div class="buttons-row">
+        <app-button class="secondary" [label]="'Voltar'" [type]="'secondary'"></app-button>
+        <app-button [label]="'Continuar'"></app-button>
+    </div>
+</div>
