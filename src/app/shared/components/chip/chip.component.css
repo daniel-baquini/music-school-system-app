@@ -1,0 +1,22 @@
+:host {
+    display: contents;
+}
+
+.host {
+    background-color: var(--c-white-10);
+    border-radius: 20px;
+    padding: 8px 16px;
+    width: fit-content;
+}
+
+.host > .label {
+    color: var(--c-dark-80);
+}
+
+.host.active {
+    background-color: var(--c-primary-90);
+}
+
+.host.active > .label {
+    color: var(--c-white-10);
+}

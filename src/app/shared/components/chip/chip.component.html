@@ -1,0 +1,6 @@
+<div class="global-shadow host" [ngClass]="{ active: this.isActive }">
+    <span
+        class="label"
+        [ngClass]="{ 'text-preset-310': !this.isActive, 'text-preset-320': this.isActive}"
+    >{{this.label}}</span>
+</div>

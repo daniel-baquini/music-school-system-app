@@ -1,0 +1,29 @@
+:host {
+    background-color: var(--c-white-10);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+}
+
+.material-icon {
+    background-color: var(--c-white-20);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.material-data {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.material-data__title {
+    color: var(--c-dark-80);
+}
+
+.material-data__description {
+    color: var(--c-dark-50);
+}

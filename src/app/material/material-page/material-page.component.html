@@ -1,0 +1,17 @@
+<app-page-title
+    [pageTitle]="'Material'"
+    [returnLink]="'/'"
+></app-page-title>
+<div class="categories">
+    <span class="categories__title text-preset-400">Categorias</span>
+    <div class="categories-chips">
+        <app-chip [isActive]="true" [label]="'Guitarra'"></app-chip>
+        <app-chip [isActive]="false" [label]="'Piano'"></app-chip>
+        <app-chip [isActive]="false" [label]="'Violão'"></app-chip>
+    </div>
+</div>
+<div class="materials">
+    <app-material-link></app-material-link>
+    <app-material-link></app-material-link>
+    <app-material-link></app-material-link>
+</div>

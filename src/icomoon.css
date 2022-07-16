@@ -10,11 +10,11 @@
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     font-style: normal;
+    text-transform: none;
     font-variant: normal;
     font-weight: normal;
-    speak: never;
-    text-transform: none;
     line-height: 1;
+    speak: never;
     
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
@@ -23,6 +23,10 @@
 
 .icon-about:before {
     content: "\e900";
+}
+
+.icon-attachment:before {
+    content: "\e905";
 }
 
 .icon-calendar:before {
@@ -38,7 +42,7 @@
 }
 
 .icon-classes:before {
-    content: "\e905";
+    content: "\e90f";
 }
 
 .icon-clock:before {
@@ -75,6 +79,10 @@
 
 .icon-money:before {
     content: "\e90d";
+}
+
+.icon-video:before {
+    content: "\e910";
 }
 
 .icon-warning:before {
