@@ -1,0 +1,56 @@
+:host {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 32px;
+    width: 100%;
+}
+
+:host > * {
+    width: 100%;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 64px 0px 0px;
+}
+
+.fields-and-instructions {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+}
+
+.fields-and-instructions__instructions {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.instructions__title {
+    color: var(--c-dark-80);
+}
+
+.instructions__description {
+    color: var(--c-dark-60);
+}
+
+.buttons-row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+}
+
+.buttons-row > .secondary {
+    width: auto;
+}

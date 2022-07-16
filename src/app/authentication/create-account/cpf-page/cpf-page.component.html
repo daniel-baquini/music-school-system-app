@@ -1,13 +1,8 @@
-<app-page-title [pageTitle]="'Cadastro'" [returnLink]="'/authentication'"></app-page-title>
-<div class="content">
-    <div class="fields-and-instructions">
-        <div class="fields-and-instructions__instructions">
-            <span class="instructions__title text-preset-510">Qual é o seu CPF?</span>
-            <span class="instructions__description text-preset-310">Essa informação é necessária para podermos verificar se você passou em uma unidade da escola de música.</span>
-        </div>
-        <app-bordered-field></app-bordered-field>
-    </div>
-    <div class="buttons-row">
-        <app-button [label]="'Continuar'" [routerLink]="'/authentication/create-account/step/2'"></app-button>
-    </div>
-</div>
+<app-create-account-page
+    [instructionsDescription]="'Essa informação é necessária para podermos verificar se você passou em uma unidade da escola de música.'"
+    [instructionsTitle]="'Qual é o seu CPF?'"
+    [returnLink]="'/authentication'"
+>
+    <app-bordered-field content></app-bordered-field>
+    <app-button buttons [label]="'Continuar'" [routerLink]="'/authentication/create-account/step/2'"></app-button>
+</app-create-account-page>

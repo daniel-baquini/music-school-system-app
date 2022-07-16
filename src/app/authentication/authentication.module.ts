@@ -4,6 +4,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { CreateAccountPageComponent } from './create-account/create-account-page/create-account-page.component';
 
 const authenticationRoutes: Routes = [
     {
@@ -24,7 +25,8 @@ const authenticationRoutes: Routes = [
     declarations: [
         LoginPageComponent,
         CpfPageComponent,
-        ConfirmationCodePageComponent
+        ConfirmationCodePageComponent,
+        CreateAccountPageComponent
     ],
     imports: [
         RouterModule.forChild(authenticationRoutes),
