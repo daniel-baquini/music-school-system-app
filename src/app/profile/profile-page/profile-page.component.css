@@ -1,0 +1,73 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+    overflow: scroll;
+    padding: 32px;
+    width: 100%;
+}
+
+.user-data {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.user-data__photo-wrapper {
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+
+.photo-wrapper__edit-button {
+    align-items: center;
+    background-color: var(--c-primary-90);
+    border-radius: 50%;
+    bottom: 4px;
+    color: var(--c-white-10);
+    font-size: 14px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    position: absolute;
+    right: 4px;
+    width: 20px;
+}
+
+.photo-wrapper__user-photo {
+    border: 2px solid var(--c-dark-60);
+    border-radius: 50%;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.photo-wrapper__user-photo > img {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.user-data__user-name-and-email {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.user-data__user-name {
+    color: var(--c-dark-80);
+}
+
+.user-data__user-email {
+    color: var(--c-dark-60);
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

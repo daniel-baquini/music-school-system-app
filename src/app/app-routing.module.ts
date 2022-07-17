@@ -19,6 +19,10 @@ const routes: Routes = [
         path: "material"
     },
     {
+        loadChildren: () => import("./profile/profile.module").then(m => m.ProfileModule),
+        path: "profile"
+    },
+    {
         loadChildren: () => import("./your-classes/your-classes.module").then(m => m.YourClassesModule),
         path: "your-classes"
     }
