@@ -1,0 +1,27 @@
+:host {
+    display: contents;
+}
+
+.next-class {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 24px;
+}
+
+.next-class__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.next-class__confirmation {
+    color: var(--c-dark-50);
+}
+
+.next-class__buttons-row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}

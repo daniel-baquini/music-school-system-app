@@ -1,0 +1,43 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.divider {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.divider__label {
+    color: var(--c-dark-60);
+}
+
+.divider__horizontal-line {
+    background-color: var(--c-dark-10);
+    height: 1px;
+    width: 100%;
+}
+
+.classes {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.cell {
+    align-items: center;
+    background-color: var(--c-white-20);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 4px;
+    padding: 20px 12px;
+}
+
+.justification-cell {
+    background-color: var(--c-white-20);
+    grid-column: span 3;
+    padding: 4px 12px 20px;
+}

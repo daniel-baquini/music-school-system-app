@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { YourClassesPageComponent } from './your-classes-page/your-classes-page.component';
 import { ClassesHistoryComponent } from './classes-history/classes-history.component';
+import { NextClassComponent } from './next-class/next-class.component';
 
 const yourClassesRoutes: Routes = [
     {
@@ -14,7 +15,8 @@ const yourClassesRoutes: Routes = [
 @NgModule({
     declarations: [
         YourClassesPageComponent,
-        ClassesHistoryComponent
+        ClassesHistoryComponent,
+        NextClassComponent
     ],
     imports: [
         RouterModule.forChild(yourClassesRoutes),
